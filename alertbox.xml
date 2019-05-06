@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/alert_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close Application :"
+        android:textColor="@color/Tab_Name1"
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="20sp"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="20sp"
+        android:id="@+id/alert_tv1"
+        android:textColor="@color/Tab_Name1"
+        android:layout_below="@id/alert_tv"
+        android:text="Are you sure you want to Exit ?"/>
+    <Button
+        android:layout_width="80sp"
+        android:layout_height="40sp"
+        android:layout_below="@id/alert_tv1"
+        android:id="@+id/alert_bt1"
+        android:layout_marginTop="50sp"
+        android:layout_marginStart="20sp"
+        android:text="Yes"
+        android:layout_marginBottom="20sp"
+        android:background="@drawable/buttonshape"/>
+    <Button
+        android:layout_width="80sp"
+        android:layout_height="40sp"
+        android:layout_alignParentEnd="true"
+        android:text="No"
+        android:id="@+id/alert_bt2"
+        android:layout_below="@id/alert_tv1"
+        android:layout_marginTop="50sp"
+        android:background="@drawable/buttonshape"
+        android:layout_marginEnd="20sp"
+        android:layout_marginBottom="20sp"/>
+
+</RelativeLayout>

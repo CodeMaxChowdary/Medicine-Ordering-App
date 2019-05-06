@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listview_shape1">
+    <TextView
+        android:id="@+id/cnf_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textSize="22sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"/>
+    <TextView
+        android:id="@+id/cnf_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City:"
+        android:layout_below="@id/cnf_tv1"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="5sp"
+
+        android:layout_marginBottom="20sp"/>
+    <TextView
+        android:id="@+id/cnf_tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mail:"
+        android:textSize="22sp"
+        android:layout_below="@id/cnf_tv2"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="20sp"/>
+    <TextView
+        android:id="@+id/cnf_tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:textSize="22sp"
+        android:layout_below="@id/cnf_tv3"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="20sp"/>
+    <TextView
+        android:id="@+id/cnf_tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medicine"
+        android:textSize="22sp"
+        android:layout_below="@id/cnf_tv4"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="20sp"/>
+    <TextView
+        android:id="@+id/cnf_t1"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="Name Comes here"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/cnf_tv1"
+        android:layout_marginTop="22sp"
+        android:layout_marginStart="25sp"/>
+    <TextView
+        android:id="@+id/cnf_t2"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="City Comes here"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/cnf_tv2"
+        android:layout_below="@id/cnf_t1"
+        android:layout_marginTop="5sp"
+        android:layout_marginStart="50sp"/>
+    <TextView
+        android:id="@+id/cnf_t3"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="Mail Comes here"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/cnf_tv3"
+        android:layout_below="@id/cnf_t2"
+        android:layout_marginTop="5sp"
+        android:layout_marginStart="50sp"/>
+    <TextView
+        android:id="@+id/cnf_t4"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="Address Comes here"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/cnf_tv4"
+        android:layout_below="@id/cnf_t3"
+        android:layout_marginTop="5sp"
+        android:layout_marginStart="10sp"/>
+    <TextView
+        android:id="@+id/cnf_t5"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="Medicine Comes here"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/cnf_tv5"
+        android:layout_below="@id/cnf_t4"
+        android:layout_marginTop="5sp"
+        android:layout_marginStart="10sp"/>
+    <Button
+        android:id="@+id/cnf_bt"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape1"
+        android:text="Confirm"
+        android:textColor="@color/Tab_Name"
+        android:layout_toRightOf="@id/cnf_t1"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20sp"/>
+
+
+</RelativeLayout>
